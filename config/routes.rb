@@ -17,7 +17,8 @@ RailsStaticPages::Application.routes.draw do
   # match "/contact", to: "pages#contact", via: 'get'
 
   # With Rails 4, we can use get
-  get "/home",    to: "pages#home"
+  # get "/home",    to: "pages#home"
+  root 'pages#home'
   get "/about",   to: "pages#about"
   get "/pricing", to: "pages#pricing"
   get "/contact", to: "pages#contact"
