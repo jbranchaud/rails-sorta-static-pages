@@ -1,6 +1,6 @@
 # Rails Sorta Static Pages
 
-> a simple rails app showing how to serve sorta static pages
+> a simple rails app demonstrating how to serve sorta static pages
 
 Run the following commands to deploy the app:
 
